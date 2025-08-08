@@ -9,12 +9,12 @@ are not cancelled (negative) and only a small subset of labels are positive.
 
 ## Dataset Overview
 
-The dataset contains **4,000 orders** with **18 attributes** including:
-- **Order Details**: Order ID, total price, lead time, delivery date
-- **Customer Information**: Customer segment, platform used
-- **Payment Data**: Payment type (credit/debit)
-- **Logistics**: Store assignment, delivery scheduling
-- **Target Variable**: Order status (Canceled/Not Canceled)
+The dataset contains ~4,000 orders with 18 attributes including:
+- Order Details: Order ID, total price, lead time, delivery date
+- Customer Information: Customer segment, platform used
+- Payment Data: Payment type (credit/debit)
+- Logistics: Store assignment, delivery scheduling
+- Target Variable: Order status (Canceled/Not Canceled)
 
 
 ### Machine Learning Pipeline
@@ -32,9 +32,9 @@ The dataset contains **4,000 orders** with **18 attributes** including:
    - Addressing class imbalance
 
 3. **Model Development**
-   - **Baseline Model**: Random prediction for performance comparison
-   - **Logistic Regression**: Linear classification with class weighting
-   - **Random Forest**: Ensemble method with hyperparameter tuning
+   - Baseline Model: Random prediction for performance comparison
+   - Logistic Regression: Linear classification with class weighting
+   - Random Forest: Ensemble method with hyperparameter tuning
 
 4. **Model Evaluation**
    - Cross-validation for robust performance estimation
