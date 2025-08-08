@@ -55,7 +55,7 @@ The dataset contains **4,000 orders** with **18 attributes** including:
 
 ### Real-word Impact 
 
-(images/compareWithBaseLine.png)
+![Alt text](images/compareWithBaseLine.png)
 
 
 Among the three models considered, the random forest model performs the best (See Model Performance Summary). Its precision score is almost three times higher than that of the baseline model. While this number may not seem impressive at first glance, it demonstrates the model's practical utility. For example, suppose there are 1,000 orders to be predicted. Based on the dataset, it is reasonable to assume that around 4% of orders will be canceled. If both the baseline and random forest models are used for prediction with a recall score of 80%, they will each successfully predict about 32 orders that are likely to be canceled. Given the baseline model's precision score of 5.2%, it will make (1-0.052)/0.052 * 32 = 583 false positive prediction. In contrast, the random forest model, with its precision score of 14.8%, will make (1-0.148)/0.148 * 32 = 184 false positive predictions. Therefore, by using the random forest model instead of the baseline model, we could reduce the number of false positive predictions by 399 per 1,000 predictions.
