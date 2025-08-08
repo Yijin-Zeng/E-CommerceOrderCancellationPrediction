@@ -2,8 +2,7 @@
 
 This is a machine learning/data science project which predicts order cancellations in e-commerce operations.
 Order cancellations pose significant challenges in e-commerce, including direct revenue impact
-and potential unnecessary operational costs. It is therefore important to understand cancellation patterns,
-and make accurate cancellation predictions.
+and potential unnecessary operational costs. It is therefore important to make accurate cancellation predictions.
 
 One challenge of this project is to deal with highly imbalanced dataset. Most orders
 are not cancelled and there are only a small subset of cancelled instances.
