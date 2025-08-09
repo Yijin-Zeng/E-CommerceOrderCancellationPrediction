@@ -52,7 +52,7 @@ The dataset contains ~4,000 orders with 18 attributes including:
 | Logistic Regression | 94.8% | 0.35 | 0.27 | 0.30 |
 | Random Forest | 95.1% | 0.42 | 0.31 | 0.36 |
 
-### Real-word Impact 
+### Real-World Impact 
 
 ![Alt text](images/compareWithBaseLine.png)
 
